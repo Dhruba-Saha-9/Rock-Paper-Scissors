@@ -1,9 +1,9 @@
 import random
-maxchoice =5
+maxchoice =input("Enter the number of times you want to play")
 mychoice =0
 compscore =0
 userscore =0
-while mychoice<maxchoice:
+while mychoice<int(maxchoice):
 
  user = input("Choose one (Rock Paper or Scissors) : ").lower()
  comp = ["rock", "paper", "scissors"]
