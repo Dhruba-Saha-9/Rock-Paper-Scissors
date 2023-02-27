@@ -1,5 +1,5 @@
 import random
-maxchoice =input("Enter the number of times you want to play")
+maxchoice =input("Enter the number of times you want to play : ")
 mychoice =0
 compscore =0
 userscore =0
